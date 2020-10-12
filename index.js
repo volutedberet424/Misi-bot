@@ -45,17 +45,17 @@ if( msg.content === "misi hombar"){
     console.log('+1')
     counter+=1
 }else
-if( msg.content === "számláló"){
+if( msg.content === "m!számláló"){
     msg.reply(counter)
     console.log('valaki kerte a szamlalot')
     
 }else
-if( msg.content === "szamlalo"){
+if( msg.content === "m!szamlalo"){
     msg.reply(counter)
     console.log('valaki kerte a szamlalot')
     
 }else
-if( msg.content === "készitő"){
+if( msg.content === "m!készitő"){
     msg.reply('A botot volutedberet készitette verzió: 0.1 ')
     console.log('infok')
     

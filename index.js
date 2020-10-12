@@ -55,7 +55,22 @@ if( msg.content === "m!szamlalo"){
     console.log('valaki kerte a szamlalot')
     
 }else
+    if( msg.content === "m! számláló"){
+    msg.reply(counter)
+    console.log('valaki kerte a szamlalot')
+    
+}else
+if( msg.content === "m! szamlalo"){
+    msg.reply(counter)
+    console.log('valaki kerte a szamlalot')
+    
+}else
 if( msg.content === "m!készitő"){
+    msg.reply('A botot volutedberet készitette verzió: 0.1 ')
+    console.log('infok')
+    
+}else
+    if( msg.content === "m! készitő"){
     msg.reply('A botot volutedberet készitette verzió: 0.1 ')
     console.log('infok')
     
@@ -95,15 +110,27 @@ if( msg.content === "misi homi"){
     console.log('+1')
     counter+=1
 }else
-if( msg.content === "parancsok"){
-    msg.reply('készitő, parancsok, info, számláló, invite, és a misi buzi összes szinonínája')
+if( msg.content === "m!parancsok"){
+    msg.reply('készitő, parancsok, info, számláló, invite, prefix: m!')
     
 }else
-if( msg.content === "info"){
+if( msg.content === "m!info"){
     msg.reply('a bot nem csak ezt a szervert nézi hanem az összeset tehát ha valahol valaki irja hogy misi buzi vagy hasonló akkor azt is számolom')
    
 }else
-if( msg.content === "invite"){
+if( msg.content === "m!invite"){
+    msg.reply('ezzel az inviteal behívhatod a szerveredre a botomat: https://discord.com/oauth2/authorize?client_id=711358034474958858&scope=bot&permissions=0')
+   
+}else
+if( msg.content === "m! parancsok"){
+    msg.reply('készitő, parancsok, info, számláló, invite, prefix: m!')
+    
+}else
+if( msg.content === "m! info"){
+    msg.reply('a bot nem csak ezt a szervert nézi hanem az összeset tehát ha valahol valaki irja hogy misi buzi vagy hasonló akkor azt is számolom')
+   
+}else
+if( msg.content === "m! invite"){
     msg.reply('ezzel az inviteal behívhatod a szerveredre a botomat: https://discord.com/oauth2/authorize?client_id=711358034474958858&scope=bot&permissions=0')
    
 }

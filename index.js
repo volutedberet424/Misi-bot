@@ -7,7 +7,12 @@ counter = 0;
 
 bot.on('ready', () =>{
     console.log('mostantol szamolok')
-    client.user.setActivity("m!parancsok ║ Misi meleg lol"); 
+    console.log('#####################')
+    console.log('#                   #')
+    console.log('#Bot by:Volutedberet#')
+    console.log('#                   #')
+    console.log('#####################')
+    client.user.setActivity("Prefix: m!") 
 })
 
 bot.on('message', msg=>{
